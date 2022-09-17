@@ -5,7 +5,7 @@ export default function Rightbar() {
   return (
     <div className="rightbar">
       <div className="rightbarWrapper">
-        <div className="eventCountainer">
+        <div className="eventContainer">
           <img src="assets/star.png" alt="" className="starImg"/>
           <span className="evenText">
             <b>フォロワー限定</b>イベント開催中！
