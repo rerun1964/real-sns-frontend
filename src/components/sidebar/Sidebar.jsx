@@ -59,6 +59,6 @@ export default function Sidebar() {
           </li>
         </ul>
       </div>
-    </div>  
-  )
+    </div>
+  );
 }
