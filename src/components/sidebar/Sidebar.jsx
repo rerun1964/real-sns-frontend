@@ -10,6 +10,7 @@ import React from 'react';
 import CloseFriend from '../closeFriend/CloseFriend';
 import "./Sidebar.css";
 import { Users } from "../../dummyData";
+import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   return (
@@ -18,7 +19,9 @@ export default function Sidebar() {
         <ul className="sidebarList">
           <li className="sidebarListItem">
             <Home className="sidebarIcon" />
-            <span className="sidebarListItemText">ホーム</span>
+            <Link to="/" style={{ textDecoration: "none"}}>
+              <span className="sidebarListItemText">ホーム</span>
+            </Link>
           </li>
           <li className="sidebarListItem">
             <Search className="sidebarIcon" />
@@ -38,7 +41,9 @@ export default function Sidebar() {
           </li>
           <li className="sidebarListItem">
             <Person className="sidebarIcon" />
+            <Link to="/profile/shincode" style={{ textDecoration: "none"}}>
             <span className="sidebarListItemText">プロフィール</span>
+            </Link>
           </li>
           <li className="sidebarListItem">
             <Settings className="sidebarIcon" />
