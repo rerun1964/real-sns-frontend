@@ -17,7 +17,7 @@ export default function Login() {
                         <input type="text" className="loginInput" placeholder="パスワード" />
                         <button className="loginButton" >ログイン</button>
                         <span className="loginForgot">パスワードを忘れた方へ</span>
-                        <button className="loginREgisterButton">アカウント作成</button>
+                        <button className="loginRegisterButton">アカウント作成</button>
 
                     </div>
                 </div>                
