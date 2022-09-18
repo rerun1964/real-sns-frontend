@@ -21,14 +21,14 @@ export default function Profile() {
                         class="profileCoverImg" 
                     />
                     <img
-                        src="assets/person/7.jpeg" 
+                        src="assets/person/1.jpeg" 
                         alt="" 
                         class="profileUserImg" 
                     />
-                    <div className="pfofileInfo">
+                </div>
+                <div className="profileInfo">
                         <h4 className="profileInfoName">Shin Code</h4>
                         <span className="profileInfoDesc">Udemy講師をしています</span>
-                    </div>
                 </div>
             </div>
             <div className="profileRightBottom">
