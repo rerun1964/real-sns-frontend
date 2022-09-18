@@ -1,3 +1,4 @@
+import { ImageTwoTone } from '@mui/icons-material'
 import React from 'react'
 import Rightbar from '../../components/rightbar/Rightbar'
 import Sidebar from '../../components/sidebar/Sidebar'
@@ -11,8 +12,30 @@ export default function Profile() {
         <Topbar />
         <div className="profile">
           <Sidebar />
-          <TimeLine />
-          <Rightbar />
+          <div className="profileRight">
+            <div className="prifleRightTop">
+                <div className="profileCover">
+                    <img 
+                        src="assets/post/3.jpeg" 
+                        alt="" 
+                        class="profileCoverImg" 
+                    />
+                    <img
+                        src="assets/person/7.jpeg" 
+                        alt="" 
+                        class="profileUserImg" 
+                    />
+                    <div className="pfofileInfo">
+                        <h4 className="profileInfoName">Shin Code</h4>
+                        <span className="profileInfoDesc">Udemy講師をしています</span>
+                    </div>
+                </div>
+            </div>
+            <div className="profileRightBottom">
+                <TimeLine />
+                <Rightbar />     
+            </div>
+          </div>
         </div>
     </>
   )
