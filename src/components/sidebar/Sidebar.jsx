@@ -19,7 +19,9 @@ export default function Sidebar() {
         <ul className="sidebarList">
           <li className="sidebarListItem">
             <Home className="sidebarIcon" />
-            <Link to="/" style={{ textDecoration: "none"}}>
+            <Link 
+              to="/" 
+              style={{ textDecoration: "none", color:"black"}} >
               <span className="sidebarListItemText">ホーム</span>
             </Link>
           </li>
@@ -41,7 +43,9 @@ export default function Sidebar() {
           </li>
           <li className="sidebarListItem">
             <Person className="sidebarIcon" />
-            <Link to="/profile/shincode" style={{ textDecoration: "none"}}>
+            <Link 
+              to="/profile/shincode" 
+              style={{ textDecoration: "none", color:"black"}} >
             <span className="sidebarListItemText">プロフィール</span>
             </Link>
           </li>
