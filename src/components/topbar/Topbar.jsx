@@ -8,7 +8,7 @@ export default function Topbar() {
         <div className="topbarContainer">
             <div className="topbarLeft">
                 <Link
-                    to="/" 
+                    to="/"  
                     style={{ textDecoration: "none", color:"black"}} >
                         <span className="logo">Real SNS</span>
                 </Link>
