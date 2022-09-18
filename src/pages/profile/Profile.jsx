@@ -1,4 +1,3 @@
-import { ImageTwoTone } from '@mui/icons-material'
 import React from 'react'
 import Rightbar from '../../components/rightbar/Rightbar'
 import Sidebar from '../../components/sidebar/Sidebar'
